@@ -2,4 +2,45 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
   }
+
+body {
+  diplay: flex;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.propic {
+  margin-top: 50px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  float: left;
+  position: fixed;
+  z-index: 999; 
+  top: 0;
+  left: 0;
+  background-color: #D5d4d0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  text-align: center;
+} 
+
+.folio {
+  height: 100%;
+  margin-left: 20%;
+  align-content: center;
+  text-align: left;
+}
