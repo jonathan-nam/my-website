@@ -2,11 +2,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 p {
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
+
 body {
   display: flex;
 }
@@ -23,7 +25,7 @@ img {
 
 .title {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 300%;
   font-style: bold;
   margin-bottom: 50px;
@@ -52,7 +54,8 @@ img {
 .nav-links li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 1px;
 }
 
 .link { 
@@ -76,8 +79,8 @@ img {
   margin-left: 22%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-top: 5%;
+  margin-bottom: 5%;
   align-content: center;
   text-align: left;
 }
@@ -86,6 +89,7 @@ img {
   font-family: 'Montserrat:800', sans-serif;
   font-weight: 400;
   font-size: 350%;
+  padding-top: 15%;
 }
 
 .section {
@@ -93,7 +97,7 @@ img {
   font-family: 'Varela Round', sans-serif;
   font-weight: 300;
   font-size: 150%;
-  margin-bottom: 20%;
+  margin-bottom: 35%;
 }
 
 .project-comment {
