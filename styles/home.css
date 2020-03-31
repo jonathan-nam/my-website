@@ -26,6 +26,10 @@ p {
   margin-bottom: 100px;
 }
 
+.nav-links {
+  list-style-type: none;
+}
+
 .container {
   height: 100%;
   width: 100%;
