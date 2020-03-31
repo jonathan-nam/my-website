@@ -20,7 +20,7 @@ p {
 }
 
 .title {
-  font-family: 'Montserrat:800', sans-serif;
+  font-family: 'Montserrat:400', sans-serif;
   font-weight: 400;
   font-size: 250%;
   margin-bottom: 100px;
@@ -92,16 +92,16 @@ p {
 }
 
 .section-header {
-  font-family: 'Montserrat:800', sans-serif;
-  font-weight: 400;
-  font-size: 350%;
+  font-family: 'Montserrat:400', sans-serif;
+  font-size: 300%;
+  font-style: normal;
+  font-weight: normal;
   padding-top: 15%;
 }
 
 .section {
   margin-top: 2%;
   font-family: 'Varela Round', sans-serif;
-  font-weight: 300;
   font-size: 150%;
   margin-bottom: 30%;
 }
