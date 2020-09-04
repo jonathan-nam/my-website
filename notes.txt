@@ -1,4 +1,4 @@
 To sync and exclude
 	aws s3 <source> <dest> <flags>
 	For my use case
-		aws s3 sync C:/dev/website s3://www.jonathannam.com --exclude ".git/*" --exclude "notes.txt"
+		aws s3 sync C:/dev/website s3://jonathannam.com --exclude ".git/*" --exclude "notes.txt"
